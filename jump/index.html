@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang= "en" onkeyup="jump()">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>beta</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+</head>
+<body>
+
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="logo">press space to jump</span>
+        </h1>
+    </div>
+
+    <header>
+        <h4>jump by ben sadel</h4>
+    </header>
+
+    <div class ="grid">
+        <div class="game">
+            <div id="character"></div>
+            <div id="block"></div>
+            <p>Score: <span id="ScoreSpan"></span></p>
+        </div>
+    </div>    
+
+
+<h2 id="alert"></h2>
+
+</body>
+
+<section id="gameOver">
+    <h2><button onClick="window.location.reload();">RESTART</button></h2>
+</section>
+
+<script src=app.js></script>
+
+</html>
